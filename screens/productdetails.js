@@ -25,15 +25,16 @@ const productDetails = () => {
                 </View>
                 <View style={styles.productInfo}>
                     <View style={styles.productName}>
-                        <Text style={styles.nameText}>sofa</Text>
+                        <Text style={styles.nameText}>Sette</Text>
                     </View>
                     <View style={styles.productDetails}>
-                        <Text style={styles.pdText}>Modern furniture design features sleek, straight lines with smooth and shiny surfaces. The focus is on simple geometric shapes rather than heavy ornamentation. The objective is to create an uncluttered look, free from chaotic lines and color schemes.</Text>
+                        <Text style={styles.pdText}>For relaxation of the body when seated.</Text>
                     </View>
                     <View style={styles.location} >
+                         <Image source={require('../assets/sette.jpg')} />
                         <View style={styles.left} >
                             <Text>Palm Street ave</Text>
-                            <Text>17-001, Accra</Text>
+                            <Text>17-001, Legon</Text>
                         </View>
                         <View style={styles.right} >
                         <Ionicons name="chevron-forward-outline" size={32} color="#00ced1" onPress={()=> {navigation.navigate("")}} />
